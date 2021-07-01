@@ -3,7 +3,7 @@ import * as ROUTES from '../constants/routes';
 
 export default function Header() {
   return (
-    <header className="h-16 bg-white border-b border-gray-primary mb-8">
+    <header className="h-16 bg-white border-b border-gray-primary mb-0">
       <div className="container mx-auto max-w-screen-lg h-full">
         <div className="flex justify-between h-full">
           <div className="text-gray-700 text-center flex items-center align-items">
@@ -16,13 +16,19 @@ export default function Header() {
           <div className="text-gray-700 text-center flex items-center align-items cursor-pointer">
             <h1 className="flex justify-center w-full">
               <Link to={ROUTES.DASHBOARD} aria-label="Shane logo">
-                <h1 className="font-sans">Shane James</h1>
+                <h1 className="font-sans text-lg">Shane James</h1>
               </Link>
             </h1>
           </div>
           <div className="text-gray-700 text-center flex items-center align-items">
             <Link to="https://www.linkedin.com/in/shane-anthony-james-0101/" aria-label="Linkedin">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="#0E76A8"
+              >
                 <path d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
             </Link>

@@ -3,7 +3,7 @@ import * as ROUTES from '../constants/routes';
 
 export default function Footer() {
   return (
-    <footer className="h-16 bg-white border-t border-gray-primary mt-8">
+    <footer className="h-16 bg-white border-t border-gray-primary mt-1">
       <div className="container mx-auto max-w-screen-lg h-full">
         <div className="flex justify-between h-full">
           <div className="text-gray-700 text-center flex items-center align-items">
