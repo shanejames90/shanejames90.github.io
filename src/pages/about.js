@@ -12,11 +12,10 @@ export default function About() {
   }, []);
 
   return (
-    <div className="bg-gray-background">
+    <div className="flex flex-col h-screen bg-gray-background">
       <Header />
-      <div className="mx-auto max-w-screen-lg">
+      <div className="flex-1 overflow-y-auto p-1">
         <Profile />
-        <p>About Page!</p>
       </div>
       <Footer />
     </div>

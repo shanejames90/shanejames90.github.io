@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import ContactMe from '../components/contactMe';
 
 export default function Contact() {
   const history = useHistory();
@@ -11,12 +12,10 @@ export default function Contact() {
   }, []);
 
   return (
-    <div className="bg-gray-background">
+    <div className="flex flex-col h-screen bg-gray-background">
       <Header />
-      <div className="container flex mx-auto max-w-screen-md items-center h-screen">
-        <div className="flex flex-col w-2/5">
-          <p>Contact Page!</p>
-        </div>
+      <div className="flex-1 overflow-y-auto p-1">
+        <ContactMe />
       </div>
       <Footer />
     </div>
