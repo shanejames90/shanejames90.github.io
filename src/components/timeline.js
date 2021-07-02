@@ -15,6 +15,7 @@ function shuffleArray(array) {
 
 export default function Timeline() {
   const data = timelineData;
+  // call shuffled data so that on each refresh user gets new timeline
   const shuffledData = shuffleArray(data);
 
   return (

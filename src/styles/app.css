@@ -3105,6 +3105,10 @@ video {
   font-family: Mr Dafoe, cursive;
 }
 
+.font-allura {
+  font-family: Allura, cursive;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -11771,6 +11775,10 @@ video {
     font-family: Mr Dafoe, cursive;
   }
 
+  .sm\:font-allura {
+    font-family: Allura, cursive;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -20405,6 +20413,10 @@ video {
 
   .md\:font-mr-dafoe {
     font-family: Mr Dafoe, cursive;
+  }
+
+  .md\:font-allura {
+    font-family: Allura, cursive;
   }
 
   .md\:font-hairline {
@@ -29043,6 +29055,10 @@ video {
     font-family: Mr Dafoe, cursive;
   }
 
+  .lg\:font-allura {
+    font-family: Allura, cursive;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -37677,6 +37693,10 @@ video {
 
   .xl\:font-mr-dafoe {
     font-family: Mr Dafoe, cursive;
+  }
+
+  .xl\:font-allura {
+    font-family: Allura, cursive;
   }
 
   .xl\:font-hairline {

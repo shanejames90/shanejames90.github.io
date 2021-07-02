@@ -31,6 +31,7 @@ module.exports = {
       fontFamily: {
         'zen-dots': ['Zen Dots', 'cursive'],
         'cinzel-decorative': ['Cinzel Decorative', 'cursive'],
+        allura: ['Allura', 'cursive'],
         'mr-dafoe': ['Mr Dafoe', 'cursive']
       }
     }
