@@ -30,6 +30,6 @@ Suggestions.propTypes = {
     media: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
-    likes: PropTypes.array.isRequired
+    likes: PropTypes.number.isRequired
   })
 };

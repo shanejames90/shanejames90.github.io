@@ -1,11 +1,7 @@
 import { useState } from 'react';
-import { useHistory } from 'react-router-dom';
 import emailjs from 'emailjs-com';
-import * as ROUTES from '../../constants/routes';
 
 export default function ContactActions() {
-  const history = useHistory();
-
   const [emailAddress, setEmailAddress] = useState('');
   const [fullName, setfullName] = useState('');
   const [message, setMessage] = useState('');

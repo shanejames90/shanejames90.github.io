@@ -1,10 +1,8 @@
 export default function ResumeAction() {
   return (
-    <div className="h-16 border-t border-gray-primary mt-12 pt-4">
-      <div className="grid grid-cols-1">
-        <div className="col-span-1 flex justify-center">
-          <embed src="images/shanejamesresume.pdf" width="500px" height="500px" />
-        </div>
+    <div className="container flex mx-auto max-w-screen-md items-center h-screen w-screen border-t border-gray-primary">
+      <div className="flex flex-col h-screen w-screen h-full items-center bg-white p-4 border border-gray-primary mb-4 rounded">
+        <embed src="images/shanejamesresume.pdf" className="h-full w-full rounded" />
       </div>
     </div>
   );

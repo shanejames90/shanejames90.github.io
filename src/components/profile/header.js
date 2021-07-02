@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="grid grid-cols-3 gap-4 justify-between mx-auto max-w-screen-lg mt-4 mb-4">
+    <div className="grid grid-cols-3 gap-4 justify-between mx-auto max-w-screen-lg mt-4 mb-1">
       <div className="container flex justify-center items-center">
         <img
           className="rounded-full h-40 w-40 flex"

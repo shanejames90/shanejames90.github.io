@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import Skeleton from 'react-loading-skeleton';
+import InfiniteScroll from 'react-infinite-scroll-component';
 import timelineData from '../timelineData';
 import Post from './post';
 
@@ -18,12 +20,33 @@ export default function Timeline() {
   // call shuffled data so that on each refresh user gets new timeline
   const shuffledData = shuffleArray(data);
 
+  const [items, setItem] = useState(shuffledData);
+
+  const fetchMoreData = async () => {
+    setTimeout(() => {
+      setItem((items) => items.concat(shuffledData));
+    }, 1000);
+    console.log('fetch', items);
+  };
+
+  console.log(items);
   return (
-    <div className="container col-span-2">
-      {!shuffledData ? (
+    <div id="scollableDiv" className="container col-span-2 overflow-auto">
+      {!items ? (
         <Skeleton count={4} width={640} height={500} className="mb-5" />
       ) : (
-        shuffledData.map((content) => <Post key={content.id} content={content} alt="demo" />)
+        <InfiniteScroll
+          dataLength={items.length}
+          next={fetchMoreData}
+          // eslint-disable-next-line react/jsx-boolean-value
+          hasMore={true}
+          loader={<h4>Loading...</h4>}
+          scrollableTarget="scrollableDiv"
+        >
+          {items.map((content) => (
+            <Post key={content.id} content={content} alt="demo" />
+          ))}
+        </InfiniteScroll>
       )}
     </div>
   );

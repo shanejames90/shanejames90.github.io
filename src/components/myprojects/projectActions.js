@@ -12,13 +12,13 @@ export default function ProjectAction() {
           <Skeleton count={4} width={320} height={400} />
         ) : (
           content.map((photo) => (
-            <div key={photo.id} className="grid grid-flow-col">
+            <div key={photo.id} className="grid grid-flow-col h-full w-full">
               <Link
                 to={{ pathname: `${photo.website}` }}
                 target="_bklank"
                 className="flex items-center"
               >
-                <img src={photo.media} alt={photo.description} className="" />
+                <img src={photo.media} alt={photo.description} className="rounded" />
               </Link>
               <div className="absolute bottom-0 left-0 bg-gray-200 z-10 w-full justify-evenly items-center h-full bg-black-faded group-hover:flex hidden">
                 <p className="flex items-center text-white font-bold">

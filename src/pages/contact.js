@@ -1,12 +1,9 @@
 import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import ContactMe from '../components/contactMe';
 
 export default function Contact() {
-  const history = useHistory();
-
   useEffect(() => {
     document.title = 'Contact Me';
   }, []);
