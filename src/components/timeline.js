@@ -26,10 +26,8 @@ export default function Timeline() {
     setTimeout(() => {
       setItem((items) => items.concat(shuffledData));
     }, 1000);
-    console.log('fetch', items);
   };
 
-  console.log(items);
   return (
     <div id="scollableDiv" className="container col-span-2 overflow-auto">
       {!items ? (
