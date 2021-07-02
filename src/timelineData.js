@@ -2,7 +2,7 @@ const timelineData = [
   {
     id: '1',
     category: 'projects',
-    avatar: 'public/images/avatars/serenity.png',
+    avatar: 'public/images/avatars/Serenity.png',
     title: 'Serenity',
     website: 'https://myserenity.netlify.app/',
     media:
