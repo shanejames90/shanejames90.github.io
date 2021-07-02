@@ -14,7 +14,7 @@ const timelineData = [
   {
     id: '2',
     category: 'projects',
-    avatar: 'public/images/avatars/stalgiac.png',
+    avatar: 'public/images/avatars/Stalgiac.png',
     title: 'Stalgiac',
     website: 'https://www.shaneajames.com/stalgiac-client/#/',
     media: 'https://github.com/shanejames90/stalgiac-client/raw/main/public/clientView.png',
