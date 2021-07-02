@@ -3093,6 +3093,18 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-zen-dots {
+  font-family: Zen Dots, cursive;
+}
+
+.font-cinzel-decorative {
+  font-family: Cinzel Decorative, cursive;
+}
+
+.font-mr-dafoe {
+  font-family: Mr Dafoe, cursive;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -11747,6 +11759,18 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-zen-dots {
+    font-family: Zen Dots, cursive;
+  }
+
+  .sm\:font-cinzel-decorative {
+    font-family: Cinzel Decorative, cursive;
+  }
+
+  .sm\:font-mr-dafoe {
+    font-family: Mr Dafoe, cursive;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -20369,6 +20393,18 @@ video {
 
   .md\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-zen-dots {
+    font-family: Zen Dots, cursive;
+  }
+
+  .md\:font-cinzel-decorative {
+    font-family: Cinzel Decorative, cursive;
+  }
+
+  .md\:font-mr-dafoe {
+    font-family: Mr Dafoe, cursive;
   }
 
   .md\:font-hairline {
@@ -28995,6 +29031,18 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-zen-dots {
+    font-family: Zen Dots, cursive;
+  }
+
+  .lg\:font-cinzel-decorative {
+    font-family: Cinzel Decorative, cursive;
+  }
+
+  .lg\:font-mr-dafoe {
+    font-family: Mr Dafoe, cursive;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -37617,6 +37665,18 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-zen-dots {
+    font-family: Zen Dots, cursive;
+  }
+
+  .xl\:font-cinzel-decorative {
+    font-family: Cinzel Decorative, cursive;
+  }
+
+  .xl\:font-mr-dafoe {
+    font-family: Mr Dafoe, cursive;
   }
 
   .xl\:font-hairline {

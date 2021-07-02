@@ -16,7 +16,7 @@ export default function Header() {
           <div className="text-gray-700 text-center flex items-center align-items cursor-pointer">
             <h1 className="flex justify-center w-full">
               <Link to={ROUTES.DASHBOARD} aria-label="Shane logo">
-                <h1 className="font-sans text-lg font-bold">Shane James</h1>
+                <h1 className="font-mr-dafoe text-3xl font-bold">&lt;Shane James /&gt;</h1>
               </Link>
             </h1>
           </div>

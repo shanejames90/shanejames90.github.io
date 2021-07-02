@@ -13,31 +13,6 @@ export default function ContactActions() {
   const [error, setError] = useState('');
   const isInvalid = emailAddress === '' || fullName === '' || message === '';
 
-  // const onSuccessfulSend = function () {
-  //   return (
-  //     <div className="container flex mx-auto max-w-screen-md items-center h-screen border-t border-gray-primary">
-  //       <div className="flex w-3/5 mr-4">
-  //         <img src="/images/contactshane.jpg" alt="shane waving" />
-  //       </div>
-  //       <div className="flex flex-col w-2/5">
-  //         <div className="flex flex-col items-center bg-white p-4 border border-gray-primary mb-4 rounded">
-  //           <h1 className="flex justify-center w-full">
-  //             <p>Thank you for your message! I will respond at my earliest convenience.</p>
-  //           </h1>
-  //           <Link to={history.push(ROUTES.DASHBOARD)}>
-  //             <button
-  //               className="bg-blue-medium text-white w-full rounded h-8 font-bold"
-  //               type="button"
-  //             >
-  //               Home
-  //             </button>
-  //           </Link>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
-  // };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
     const templateParams = {

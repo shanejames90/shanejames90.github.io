@@ -5,7 +5,10 @@ import Suggestions from './suggestions';
 export default function Sidebar() {
   const data = timelineData;
 
-  return !data ? (
+  // filter data to only suggest deployed projects
+  const filteredData = data.filter((item) => item.category === 'projects');
+
+  return !filteredData ? (
     <Skeleton count={1} height={150} className="mb-5" />
   ) : (
     <div className="rounded flex flex-col">
@@ -13,7 +16,7 @@ export default function Sidebar() {
         <p className="font-bold text-gray-base">Suggestions for you</p>
       </div>
       <div className="mt-4 grid gap-4">
-        {data.map((content) => (
+        {filteredData.map((content) => (
           <Suggestions key={content.id} content={content} />
         ))}
       </div>

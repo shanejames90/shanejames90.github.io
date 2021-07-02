@@ -26,6 +26,13 @@ module.exports = {
       red: {
         primary: '#ed4956'
       }
+    },
+    extend: {
+      fontFamily: {
+        'zen-dots': ['Zen Dots', 'cursive'],
+        'cinzel-decorative': ['Cinzel Decorative', 'cursive'],
+        'mr-dafoe': ['Mr Dafoe', 'cursive']
+      }
     }
   },
   variants: {
