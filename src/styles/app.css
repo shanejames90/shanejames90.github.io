@@ -3101,12 +3101,12 @@ video {
   font-family: Cinzel Decorative, cursive;
 }
 
-.font-mr-dafoe {
-  font-family: Mr Dafoe, cursive;
-}
-
 .font-allura {
   font-family: Allura, cursive;
+}
+
+.font-mr-dafoe {
+  font-family: Mr Dafoe, cursive;
 }
 
 .font-hairline {
@@ -11771,12 +11771,12 @@ video {
     font-family: Cinzel Decorative, cursive;
   }
 
-  .sm\:font-mr-dafoe {
-    font-family: Mr Dafoe, cursive;
-  }
-
   .sm\:font-allura {
     font-family: Allura, cursive;
+  }
+
+  .sm\:font-mr-dafoe {
+    font-family: Mr Dafoe, cursive;
   }
 
   .sm\:font-hairline {
@@ -20411,12 +20411,12 @@ video {
     font-family: Cinzel Decorative, cursive;
   }
 
-  .md\:font-mr-dafoe {
-    font-family: Mr Dafoe, cursive;
-  }
-
   .md\:font-allura {
     font-family: Allura, cursive;
+  }
+
+  .md\:font-mr-dafoe {
+    font-family: Mr Dafoe, cursive;
   }
 
   .md\:font-hairline {
@@ -29051,12 +29051,12 @@ video {
     font-family: Cinzel Decorative, cursive;
   }
 
-  .lg\:font-mr-dafoe {
-    font-family: Mr Dafoe, cursive;
-  }
-
   .lg\:font-allura {
     font-family: Allura, cursive;
+  }
+
+  .lg\:font-mr-dafoe {
+    font-family: Mr Dafoe, cursive;
   }
 
   .lg\:font-hairline {
@@ -37691,12 +37691,12 @@ video {
     font-family: Cinzel Decorative, cursive;
   }
 
-  .xl\:font-mr-dafoe {
-    font-family: Mr Dafoe, cursive;
-  }
-
   .xl\:font-allura {
     font-family: Allura, cursive;
+  }
+
+  .xl\:font-mr-dafoe {
+    font-family: Mr Dafoe, cursive;
   }
 
   .xl\:font-hairline {
