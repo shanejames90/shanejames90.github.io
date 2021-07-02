@@ -39,7 +39,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "build:css": "postcss src/styles/tailwind.css -o src/styles/app.css",
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/app.css --watch",
     "react-scripts:start": "sleep 5 && react-scripts start",
@@ -68,8 +68,8 @@
       "last 1 safari version"
     ]
   },
-    "description": "Shane portfolio",
-    "main": "index.js",
-    "author": "Shane James",
-    "license": "ISC"
+  "description": "Shane portfolio",
+  "main": "index.js",
+  "author": "Shane James",
+  "license": "ISC"
 }
