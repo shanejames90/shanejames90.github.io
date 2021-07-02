@@ -47,7 +47,8 @@
     "start": "run-p watch:css react-scripts:start",
     "build": "run-s build:css react-scripts:dist",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "add-domain": "echo \"shaneajames.com\" > build/CNAME"
   },
   "eslintConfig": {
     "extends": [
@@ -66,5 +67,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+    "description": "Shane portfolio",
+    "main": "index.js",
+    "author": "Shane James",
+    "license": "ISC"
 }
