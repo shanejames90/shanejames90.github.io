@@ -12,7 +12,7 @@ export default function Suggestions({ content }) {
         />
         <p className="font-bold">{content.title}</p>
       </div>
-      <Link to={content.website} className="flex items-center">
+      <Link to={{ pathname: `${content.website}` }} target="_blank" className="flex items-center">
         <button className="flex flex-row-reversed text-xs font-bold text-blue-medium" type="button">
           view
         </button>
