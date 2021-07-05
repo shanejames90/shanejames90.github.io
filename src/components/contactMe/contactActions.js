@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { useSnackbar } from 'notistack';
 
 export default function ContactActions() {
   const [emailAddress, setEmailAddress] = useState('');
@@ -9,6 +10,8 @@ export default function ContactActions() {
   const [error, setError] = useState('');
   const isInvalid = emailAddress === '' || fullName === '' || message === '';
 
+  const { enqueueSnackbar } = useSnackbar();
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const templateParams = {
@@ -16,7 +19,6 @@ export default function ContactActions() {
       fullName,
       message
     };
-
     try {
       await emailjs.send(
         'service_g1w4s02',
@@ -30,6 +32,7 @@ export default function ContactActions() {
         setMessage('');
       };
       reset();
+      enqueueSnackbar('Your message has been sent!');
     } catch (error) {
       setEmailAddress('');
       setfullName('');
