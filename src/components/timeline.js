@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Skeleton from 'react-loading-skeleton';
-import InfiniteScroll from 'react-infinite-scroll-component';
 import timelineData from '../timelineData';
 import Post from './post';
 
@@ -33,18 +32,11 @@ export default function Timeline() {
       {!items ? (
         <Skeleton count={4} width={640} height={500} className="mb-5" />
       ) : (
-        <InfiniteScroll
-          dataLength={items.length}
-          next={fetchMoreData}
-          // eslint-disable-next-line react/jsx-boolean-value
-          hasMore={true}
-          loader={<h4>Loading...</h4>}
-          scrollableTarget="scrollableDiv"
-        >
+        <div>
           {items.map((content) => (
             <Post key={content.id} content={content} alt="demo" />
           ))}
-        </InfiniteScroll>
+        </div>
       )}
     </div>
   );

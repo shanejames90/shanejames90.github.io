@@ -10,8 +10,10 @@ export default function ContactHeader() {
       </div>
       <div className="flex items-center justify-center flex-col col-span-2">
         <div className="container flex items-center">
-          <p className="text-2xl mr-2">Let's</p>
-          <p className="bg-blue-medium font-bold text-2xl rounded text-white w-22 h-8">Talk</p>
+          <p className="text-2xl mr-2 dark:text-white dark:text-opacity-80">Let's</p>
+          <p className="bg-blue-medium font-bold text-2xl rounded text-white w-22 h-8 dark:bg-gray-logodark dark:text-opacity-9">
+            Talk
+          </p>
           <div className="container flex mt-4" />
           <div className="container mt-4" />
         </div>

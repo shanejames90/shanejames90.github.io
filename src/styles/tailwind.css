@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dark {
+    --bg-background-primary: white;
+    --bg-background-secondary: black
+}

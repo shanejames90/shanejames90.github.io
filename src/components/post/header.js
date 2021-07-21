@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header({ title, website }) {
   return (
-    <div className="flex border-b border-gray-primary h-4 p-4 py-8">
+    <div className="flex border-b border-gray-primary h-4 p-4 py-8 dark:bg-gray-middark dark:border-gray-darkest">
       <div className="flex items-center">
         <Link to={{ pathname: `${website}` }} target="_blank" className="flex items-center">
           <img
@@ -11,7 +11,9 @@ export default function Header({ title, website }) {
             src={`/images/avatars/${title}.png`}
             alt={`${title} profile`}
           />
-          <p className="font-bold">{title}</p>
+          <p className="font-bold dark:text-white dark:text-opacity-80 dark:hover:text-opacity-100">
+            {title}
+          </p>
         </Link>
       </div>
     </div>

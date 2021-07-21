@@ -6,7 +6,7 @@ import Footer from './footer';
 
 export default function Post({ content }) {
   return (
-    <div className="rounded col-span-4 border bg-white border-gray-primary mb-7 mt-5">
+    <div className="rounded col-span-4 border bg-white border-gray-primary mb-7 mt-5 dark:bg-gray-middark dark:border-gray-darkest">
       <Header title={content.title} website={content.website} />
       <Image src={content.media} caption={content.description} />
       <Actions totalLikes={content.likes} likedPhoto={content.liked} />

@@ -6,7 +6,7 @@ import projectData from './projectData';
 export default function ProjectAction() {
   const content = projectData;
   return (
-    <div className="h-16 border-t border-gray-primary mt-12 pt-4">
+    <div className="h-16 border-t border-gray-primary mt-12 pt-4 dark:border-gray-middark">
       <div className="grid grid-cols-2 gap-2 mt-4 mb-12">
         {!content ? (
           <Skeleton count={4} width={320} height={400} />

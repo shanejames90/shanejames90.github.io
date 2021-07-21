@@ -3,14 +3,14 @@ import * as ROUTES from '../constants/routes';
 
 export default function Footer() {
   return (
-    <footer className="h-16 bg-white border-t border-gray-primary mt-1">
+    <footer className="h-16 bg-white border-t border-gray-primary mt-1 dark:bg-gray-middark dark:border-gray-darkest">
       <div className="container mx-auto max-w-screen-lg h-full">
         <div className="flex justify-between h-full">
           <div className="text-gray-700 text-center flex items-center align-items">
             <Link to={ROUTES.DASHBOARD} aria-label="Home">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
+                className="h-6 w-6 dark:text-white"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -29,7 +29,7 @@ export default function Footer() {
               <Link to={ROUTES.PROJECTS} aria-label="projects">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="h-6 w-6 dark:text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -48,7 +48,7 @@ export default function Footer() {
             <Link to={ROUTES.CONTACT} aria-label="contact">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
+                className="h-6 w-6 dark:text-white"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -66,7 +66,7 @@ export default function Footer() {
             <Link to={ROUTES.RESUME} aria-label="resume">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
+                className="h-6 w-6 dark:text-white"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -84,7 +84,7 @@ export default function Footer() {
             <Link to={ROUTES.ABOUT} aria-label="about">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
+                className="h-6 w-6 dark:text-white"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

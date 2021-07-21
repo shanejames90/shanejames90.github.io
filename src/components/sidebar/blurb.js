@@ -2,7 +2,7 @@ export default function Blurb() {
   return (
     <div className="container flex max-w-screen-md items-center">
       <div className="flex flex-col w-f">
-        <div className="flex flex-col items-center bg-white p-4 border border-gray-primary mb-4 rounded">
+        <div className="flex flex-col items-center bg-white p-4 border border-gray-primary mb-4 rounded dark:bg-gray-middark dark:text-white dark:text-opacity-80 dark:border-gray-darkest">
           <h1 className="flex justify-center w-full mb-4">
             <p>
               Hello and welcome to my portfolio. Unlike a traditional portfolio, I've added a new

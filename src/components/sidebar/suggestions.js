@@ -10,10 +10,13 @@ export default function Suggestions({ content }) {
           src={`/images/avatars/${content.title}.png`}
           alt={`${content.title} profile`}
         />
-        <p className="font-bold">{content.title}</p>
+        <p className="font-bold dark:text-white dark:text-opacity-80">{content.title}</p>
       </div>
       <Link to={{ pathname: `${content.website}` }} target="_blank" className="flex items-center">
-        <button className="flex flex-row-reversed text-xs font-bold text-blue-medium" type="button">
+        <button
+          className="flex flex-row-reversed text-xs font-bold text-blue-medium hover:text-blue-light hover:underline"
+          type="button"
+        >
           view
         </button>
       </Link>

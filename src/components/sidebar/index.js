@@ -17,7 +17,7 @@ export default function Sidebar() {
       <Header />
       <Blurb />
       <div className="text-sm flex items-center align-items justify-between mb-2 mt-5">
-        <p className="font-bold text-gray-base">Suggestions for you</p>
+        <p className="font-bold text-gray-base dark:text-gray-text">Suggestions for you</p>
       </div>
       <div className="mt-4 grid gap-4">
         {filteredData.map((content) => (
